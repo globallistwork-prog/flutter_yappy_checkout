@@ -1,0 +1,9 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [1.0.0] - 2025-07-20
+### Added
+- Primera versión estable de `flutter_yappy_checkout`.
+- Soporte para abrir WebView y procesar pagos vía API de Yappy.
+- Callback para `onSuccess`, `onCancel` y `onError`.
