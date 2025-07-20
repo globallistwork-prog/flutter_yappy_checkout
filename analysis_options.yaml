@@ -1,0 +1,9 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_print: true # Evita usar print() en producción; mejor usa debugPrint o Logger
+    prefer_const_constructors: true # Prefiere usar 'const' cuando sea posible
+    always_declare_return_types: true # Requiere que declares el tipo de retorno en funciones
+    avoid_unused_constructor_parameters: true # Evita parámetros no usados en constructores
+    prefer_final_fields: true # Usa 'final' en campos que no cambian
