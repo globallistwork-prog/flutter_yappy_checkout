@@ -1,0 +1,17 @@
+name: flutter_yappy_checkout
+description: Plugin para pagos con Yappy desde Flutter
+version: 0.0.1
+homepage: https://github.com/tuusuario/flutter_yappy_checkout
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.2.2
+  http: ^1.1.0
+
+flutter:
+  uses-material-design: true
