@@ -1,0 +1,27 @@
+# Normalización de finales de línea
+* text=auto
+
+# Tratar todos los Dart, YAML y Markdown como texto
+*.dart text
+*.yaml text
+*.yml text
+*.md text
+*.json text
+*.html text
+*.css text
+*.js text
+
+# Forzar UTF-8
+* text=auto eol=lf
+
+# Archivos binarios comunes
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.mp4 binary
+*.mp3 binary
+*.pdf binary
